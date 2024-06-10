@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav .logo{
+    color: rgb(6, 118, 216) !important;
+}
+nav input{
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 6px;
+}
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+.side-menu{
+    display: none;
+}
+.body-content{
+    height: 100%;
+    width: 100%;
+}
+aside{
+    height:auto;
+    width: 170px;
+    background-color: black;
+   
+}
+#sidebar{
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    top: 100px;
+    
+}
+.row{
+    margin-top: 20px;
+}
+#revenue .card{
+    overflow: hidden;
+    border: none;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.bg{
+    background-image: url('https://i.pinimg.com/736x/c0/8b/03/c08b03e33f8f3393a6382e07563a1ced.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#orders{
+    max-width: 95%;
+    overflow-x: scroll;
+}
+.table img{
+    width: 50px;
+}
